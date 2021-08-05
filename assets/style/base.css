@@ -5,7 +5,8 @@
     --primary-color: #EA5634;
     --border-color: #dbdbdb;
     --navbar-height: 34px;
-    --header-height: 120px
+    --header-height: 120px;
+    --star-gold-color: #ffce3e;
 }
 
 * {
@@ -186,6 +187,7 @@ html {
     border-radius: 2px;
     background-color: var(--white-color);
     display: none;
+    z-index: 1;
 }
 
 .select-input__link {
